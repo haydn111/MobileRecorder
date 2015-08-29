@@ -24,7 +24,6 @@ public class CameraRecorderService extends Service {
 	private Camera mServiceCamera;
 	private boolean mRecordingStatus;
 	private MediaRecorder mMediaRecorder;
-	private Thread recordingThread;
 	
 	@Override
 	public void onCreate() {
@@ -119,6 +118,7 @@ public class CameraRecorderService extends Service {
 			mServiceCamera.startPreview();
 			mServiceCamera.unlock();
 			mMediaRecorder.setCamera(mServiceCamera);
+			// Use a system camera profile instead of setting specific parameters to improve compatibility
 			CamcorderProfile recorderProfile = CamcorderProfile.get(camIdx, CamcorderProfile.QUALITY_HIGH);
 //			mMediaRecorder.setVideoEncodingBitRate(6000000);
 			mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);

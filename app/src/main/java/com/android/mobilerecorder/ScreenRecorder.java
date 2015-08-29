@@ -105,7 +105,7 @@ public class ScreenRecorder extends Thread {
         if ((mBufferInfo.flags & MediaCodec.BUFFER_FLAG_CODEC_CONFIG) != 0) {
             // The codec config data was pulled out and fed to the muxer when we got
             // the INFO_OUTPUT_FORMAT_CHANGED status.
-            // Ignore it.
+            // Ignore it for now.
             Log.d(TAG, "ignoring BUFFER_FLAG_CODEC_CONFIG");
             mBufferInfo.size = 0;
         }

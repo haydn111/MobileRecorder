@@ -169,7 +169,7 @@ public class MobileRecorder extends Activity implements SurfaceHolder.Callback {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		MediaProjection mediaProjection = mMediaProjectionManager.getMediaProjection(resultCode, data);
 		if (mediaProjection == null) {
-			Log.e(TAG, "media projection is null");
+			Log.e(TAG, "Media projection is null");
 			return;
 		}
 
