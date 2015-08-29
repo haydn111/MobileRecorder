@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<Button
+		android:text="@string/start"
+		android:id="@+id/StartService"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+	</Button>
+
+	<Button
+		android:text="@string/stop"
+		android:id="@+id/StopService"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+	</Button>
+
+	<Button
+		android:text="@string/about"
+		android:id="@+id/about"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+	</Button>
+
+	<CheckBox
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="@string/check_box"
+		android:id="@+id/checkBox"
+		android:checked="false"/>
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"/>
+
+	<SurfaceView
+		android:id="@+id/surfaceView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="visible" >
+	</SurfaceView>
+</LinearLayout>

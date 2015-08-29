@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Recorder</string>
+    <string name="action_settings">设置</string>
+
+    <string name="start">开始录制</string>
+    <string name="stop">停止录制</string>
+    <string name="about">关于Mobile Recorder</string>
+    <string name="check_box">录制结束后合成视频文件</string>
+
+    <string name="recording">正在录制...</string>
+    <string name="recording_stopped">录制已停止</string>
+    <string name="processing_finished">已合成视频</string>
+
+    <string name="combining">合成进行中...</string>
+    <string name="combining_finished">已合成 </string>
+
+    <string name="device_not_supported">设备不支持此应用</string>
+    <string name="device_not_supported_message">设备不支持FFmpeg库</string>
+
+    <string name="alert_dialog_title">启用后期合成</string>
+    <string name="alert_dialog_content">* 启用时，在按下‘停止录制’后会开始在后台合成视频。此过程非常费时，不建议合成半分钟以上的视频。\n\n* 由于不能够同时合成多个视频，如果您使用此选项连续录制多段视频，仅有最后一段视频能够被合成\n\n确定继续吗?</string>
+
+    <string name="about_title">关于UE\u0026SEO Mobile Video Recorder</string>
+    <string name="about_txt">本应用仍在开发中.\n\n开发者: Su Yan\n测试: Qi Zhong\n\n请访问 http://www.ueseo.net/mobile-video-recorder.html 以获取更多帮助。</string>
+    <!--
+    <string name="about_txt">UE\u0026SEO Mobile Video Recorder 由 UE\u0026SEO Inc 开发. 主要目的为帮助用户体验研究者，人机交互研究者，开发者以及产品经理收集app的用户交互数据并提升用户体验。\n\n请访问 http://www.ueseo.net/mobile-video-recorder.html 以获取更多帮助。</string>
+    -->
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Recorder</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="about">About This App</string>
+    <string name="check_box">Generate Combined Video File on Stop</string>
+    
+    <string name="recording">Recording...</string>
+    <string name="recording_stopped">Recording Stopped</string>
+    <string name="processing_finished">Combining Finished</string>
+    
+    <string name="combining">Combining in Progress...</string>
+    <string name="combining_finished">Done Combining </string>
+    
+    <string name="device_not_supported">Device not supported</string>
+    <string name="device_not_supported_message">FFmpeg is not supported on your device</string>
+    
+    <string name="alert_dialog_title">Enable Post-Combining</string>
+    <string name="alert_dialog_content">* When checked, a combined video file will be generated in background after you stop recording. This will take a very long time and consume a significant amount of power to complete.\n\n* Only one combining action can exist in background. If you consecutively record videos with this option checked, only your last recording will be combined.\n\nAre you sure to continue?</string>
+
+    <string name="about_title">About UE\u0026SEO Mobile Video Recorder</string>
+    <string name="about_txt">This app is still under development.\n\nDeveloper: Su Yan\nTester: Qi Zhong\n\nPlease visit http://www.ueseo.net/mobile-video-recorder.html for help.</string>
+
+    <!--
+    <string name="about_txt">UE\u0026SEO Mobile Video Recorder is developed by UE\u0026SEO Inc. It is intended to help user experience researchers, human-computer interaction researchers, developers and product managers to collect user interaction data with their apps and improve user experience.\n\nPlease visit http://www.ueseo.net/mobile-video-recorder.html for help.</string>
+    -->
+</resources>
